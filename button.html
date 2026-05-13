@@ -1,0 +1,96 @@
+<!-- ================= PLAYER BOX ================= -->
+<div class="fake-video-box">
+
+  <!-- LOADING -->
+  <div id="loadingScreen">
+    <div class="loader"></div>
+    <p>Getting Ready ... ⏳</p>
+  </div>
+
+  <!-- BUTTON -->
+  <button id="playBtn" class="video-trigger-btn">
+    ▶ OPEN-Game of-Thrones Vj Junior🎬
+  </button>
+
+</div>
+
+<!-- ================= STYLES ================= -->
+<style>
+
+/* BOX */
+.fake-video-box{
+  position:relative;
+  width:100%;
+  max-width:800px;
+  height:400px;
+  margin:20px auto;
+  background:#000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+/* LOADER */
+#loadingScreen{
+  position:absolute;
+  text-align:center;
+  color:#fff;
+}
+
+.loader{
+  border:5px solid #444;
+  border-top:5px solid #fff;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+  100%{transform:rotate(360deg);}
+}
+
+/* BUTTON */
+.video-trigger-btn{
+  display:none;
+  padding:18px 40px;
+  font-size:22px;
+  font-weight:bold;
+  background:#ff0000;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+</style>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+
+/* SHOW BUTTON AFTER 20 SECONDS */
+setTimeout(()=>{
+  document.getElementById("loadingScreen").style.display="none";
+  document.getElementById("playBtn").style.display="block";
+},20000);
+
+/* CLICK → OPEN IN NEW TAB */
+document.getElementById("playBtn").onclick=function(){
+
+  window.open(
+    "http://www.google.com/url?q=http%3A%2F%2Fkarikaada-ab.marketing2advertising.com%2Fbutton.html&sa=D&sntz=1&usg=AOvVaw0CLoQDdp3dMjWKqg3nl70u", // 🔥 PUT YOUR LINK HERE
+    "_blank"
+  );
+
+};
+
+</script>
+
+ <iframe 
+    allowfullscreen='allowfullscreen'
+    class='cu8tom_100'
+    src='https://search.marketing2advertising.com'
+    style='width:100%; height:500px; border:none;'>
+  </iframe>
